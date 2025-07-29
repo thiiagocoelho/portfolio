@@ -573,12 +573,32 @@ body:not(.font-sans-serif):not(.font-serif) .option-group button {
 }
 
 /* Classes de Acessibilidade */
-.font-sans-serif, .font-sans-serif * {
+.font-sans-serif, 
+.font-sans-serif body,
+.font-sans-serif p,
+.font-sans-serif h1,
+.font-sans-serif h2,
+.font-sans-serif h3,
+.font-sans-serif a,
+.font-sans-serif button,
+.font-sans-serif span,
+.font-sans-serif li,
+.font-sans-serif div:not([class*="fa"]) {
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: bold !important;
 }
 
-.font-serif, .font-serif * {
+.font-serif, 
+.font-serif body,
+.font-serif p,
+.font-serif h1,
+.font-serif h2,
+.font-serif h3,
+.font-serif a,
+.font-serif button,
+.font-serif span,
+.font-serif li,
+.font-serif div:not([class*="fa"]) {
     font-family: 'Times New Roman', Times, serif !important;
 }
 
