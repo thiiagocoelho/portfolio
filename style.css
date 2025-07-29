@@ -413,6 +413,8 @@ footer {
     font-size: 1rem;
     color: var(--font-color);
     text-shadow: none;
+    word-break: break-word;
+    text-align: center; 
 }
 
 /* --- Estilos do Modal de Imagem --- */
@@ -702,9 +704,16 @@ html.intense {
     section h2 {
         font-size: 1.6rem;
     }
-    .projetos-grid, .skills-grid {
+    .projetos-grid{
         gap: 20px;
     }
+
+    .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* estava 150px */
+    gap: 20px;
+    }
+ 
     .certificado-card {
         width: 280px; /* Smaller cards for smaller screens */
     }
