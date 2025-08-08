@@ -1,4 +1,4 @@
-const meusProjetos = [
+export const meusProjetos = [
     {
         id: 1,
         titulo: "Green House",
