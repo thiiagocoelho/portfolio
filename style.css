@@ -110,6 +110,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 0 10px;
+    background-image: url("img/Background.png");
 }
 
 .hero-content h1 {
@@ -150,6 +151,7 @@ nav {
 section {
     padding: 50px 0;
 }
+
 
 section h2 {
     text-align: center;

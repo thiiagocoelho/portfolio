@@ -19,15 +19,21 @@ const meusProjetos = [
     {
         id: 2,
         titulo: "Motivacional StarLab",
-        descricao: "Em construção.",
-        tecnologias: [],
-        linkOnline: "#",
-        imagensGaleria: []
+        descricao: "Tela motivacional para para uma empresa fictícia chamada StarLab que mostra frases inspiradoras, data, dia da semana e hora atual, além do clima e tempo atual. Desenvolvido como um projeto de estudo para praticar HTML, CSS e JavaScript.",
+        tecnologias: [
+            { nome: 'HTML5', icone: 'fab fa-html5' },
+            { nome: 'CSS3', icone: 'fab fa-css3-alt' },
+            { nome: 'JavaScript', icone: 'fab fa-js-square' },
+        ],
+        linkOnline: "https://motivacionalstarlab.netlify.app/",
+        imagensGaleria: [
+            "../paginaProjetos/imgProjetos/motivacional-starlab.png",
+        ]
     },
     {
         id: 3,
         titulo: "Projeto 3",
-        descricao: "Em construção.",
+        descricao: "",
         tecnologias: [],
         linkOnline: "#",
         imagensGaleria: []
