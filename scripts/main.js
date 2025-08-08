@@ -1,8 +1,6 @@
-// Este script controla a interatividade da página principal (index.html).
-
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Efeito de digitação na seção hero
+    // Efeito de digitação
     const typingTextElement = document.getElementById('typing-text');
     if (typingTextElement) {
         const textToType = "Olá, eu sou Thiago Coelho";
@@ -17,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         type();
     }
 
-    // Animação de aparição dos elementos com o scroll
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -86,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateButtonState();
     }
 
-    // Lógica do modal para ampliar imagens dos certificados
+    // modal para ampliar imagens dos certificados
     const modal = document.getElementById('image-modal');
     if (modal) {
         const modalImg = document.getElementById('modal-image');
@@ -115,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Lógica do botão "Voltar ao Topo"
+    // Lógica do botão voltar ao topo
     const backToTopButton = document.getElementById('back-to-top');
     if (backToTopButton) {
         window.addEventListener('scroll', () => {
@@ -127,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Lógica do painel de Acessibilidade
+    // Acessibilidade
     const accessibilityButton = document.getElementById('accessibility-button');
     const accessibilityPanel = document.getElementById('accessibility-panel');
     const closeAccessibilityButton = document.getElementById('close-accessibility');

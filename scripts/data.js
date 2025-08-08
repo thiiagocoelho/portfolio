@@ -32,5 +32,4 @@ const meusProjetos = [
         linkOnline: "#",
         imagensGaleria: []
     }
-    // Adicione mais objetos de projeto aqui.
 ];

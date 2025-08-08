@@ -1,15 +1,10 @@
-// Este script controla a página de detalhes de um projeto (indexP.html).
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Pega o ID do projeto da URL (ex: ?id=1)
     const params = new URLSearchParams(window.location.search);
     const projetoId = parseInt(params.get('id'));
 
-    // Encontra o projeto correspondente no array 'meusProjetos' (que vem do data.js)
     const projeto = meusProjetos.find(p => p.id === projetoId);
 
     if (projeto) {
-        // Se encontrou o projeto, preenche a página com suas informações
         document.title = `Detalhes do Projeto | ${projeto.titulo}`;
         document.querySelector('.titulo-projeto').textContent = projeto.titulo;
         document.querySelector('.descricao-projeto p').textContent = projeto.descricao;
@@ -17,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Preenche a lista de tecnologias
         const techList = document.querySelector('.tech-list');
-        techList.innerHTML = ''; // Limpa a lista para garantir que não haja duplicatas
+        techList.innerHTML = ''; 
         projeto.tecnologias.forEach(tech => {
             const li = document.createElement('li');
             if (tech.icone) {
@@ -56,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             galeria.appendChild(dotsContainer);
 
-            showSlides(1); // Inicia a galeria no primeiro slide
+            showSlides(1);
         } else {
             galeria.innerHTML = '<p style="text-align: center; width: 100%;">Não há imagens para este projeto.</p>';
         }
@@ -68,8 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// --- Funções da Galeria e Modal ---
-// Estas funções são globais para serem acessadas pelos atributos onclick no HTML.
+// funções gerais
 
 let slideIndex = 1;
 
