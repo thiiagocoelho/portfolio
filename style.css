@@ -1,4 +1,3 @@
-/* Estilos Globais e Tema */
 :root {
     --background-color: #001219;
     --primary-color: #002838;
@@ -224,7 +223,6 @@ section h2 {
     font-size: 0.8rem;
 }
 
-/* --- Seção Certificados --- */
 .certificados-carousel-container {
     position: relative;
     display: flex;
@@ -274,7 +272,7 @@ section h2 {
     height: auto;
     margin-bottom: 15px;
     background-color: var(--font-color);
-    cursor: pointer; /* Adiciona o cursor de ponteiro */
+    cursor: pointer;
 }
 
 .certificado-card h3 {
@@ -320,7 +318,6 @@ section h2 {
     margin-left: 10px;
 }
 
-/* Botão Mostrar Mais */
 .mostrar-mais-container {
     text-align: center;
     margin-top: 40px;
@@ -419,17 +416,16 @@ footer {
     text-align: center; 
 }
 
-/* --- Estilos do Modal de Imagem --- */
 .modal {
     display: none;
-    position: fixed; /* Fica sobre todo o conteúdo */
-    z-index: 2000; /* Garante que fique na frente de tudo */
+    position: fixed;
+    z-index: 2000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /* Permite scroll se a imagem for muito grande */
-    background-color: rgba(0,0,0,0.9); /* Fundo preto semi-transparente */
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -466,7 +462,6 @@ footer {
     text-decoration: none;
 }
 
-/* --- Botão Voltar ao Topo --- */
 #back-to-top {
     position: fixed;
     bottom: 20px;
@@ -479,7 +474,7 @@ footer {
     font-size: 1.5rem;
     cursor: pointer;
     z-index: 1010;
-    display: none; /* Começa oculto */
+    display: none;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -492,7 +487,7 @@ footer {
     color: var(--secondary-color);
 }
 
-/* --- Estilos de Acessibilidade --- */
+/* Acessibilidade */
 #accessibility-button {
     position: fixed;
     bottom: 20px;
@@ -576,7 +571,6 @@ body:not(.font-sans-serif):not(.font-serif) .option-group button {
     font-size: 0.9rem;
 }
 
-/* Classes de Acessibilidade */
 .font-sans-serif, 
 .font-sans-serif body,
 .font-sans-serif p,
@@ -626,7 +620,6 @@ html.intense {
 }
 
 
-/* --- Media Queries para Responsividade --- */
 @media (max-width: 768px) {
     .logo {
         width: 100%;
@@ -717,7 +710,7 @@ html.intense {
     }
  
     .certificado-card {
-        width: 280px; /* Smaller cards for smaller screens */
+        width: 280px;
     }
     .contato-link {
         width: 100%;
@@ -737,3 +730,4 @@ html.intense {
         font-size: 1.2rem;
     }
 }
+
