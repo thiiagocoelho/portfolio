@@ -14,6 +14,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
     font-size: 16px;
 }
 
@@ -109,7 +110,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 0 10px;
-    background-image: url("img/Background.png");
+    background-image: url("img/background/Background.png");
 }
 
 .hero-content h1 {
@@ -148,7 +149,7 @@ nav {
 }
 
 section {
-    padding: 50px 0;
+    padding: 50px 0;    
 }
 
 
