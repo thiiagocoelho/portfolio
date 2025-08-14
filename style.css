@@ -628,28 +628,36 @@ html.intense {
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
+
     nav {
         justify-content: center;
     }
+
     .nav-links {
         gap: 0.8rem;
         justify-content: center;
     }
+
     .nav-links a {
         font-size: 0.8rem;
     }
+
     .hero-content h1 {
         font-size: 2rem;
     }
+    
     .hero-content p {
         font-size: 0.9rem;
     }
+
     .typing-cursor {
         height: 2rem;
     }
+
     #sobre .container {
         flex-direction: column;
     }
+
     .avatar {
         width: 200px;
         height: 200px;
@@ -657,15 +665,17 @@ html.intense {
     section h2 {
         font-size: 1.8rem;
     }
-    /* Hide carousel buttons on mobile and enable swipe */
+
     .carousel-btn {
         display: none;
     }
+
     .certificados-wrapper {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
     }
+
     .certificados-wrapper::-webkit-scrollbar {
         display: none;
     }
@@ -675,56 +685,68 @@ html.intense {
     body {
         line-height: 1.5;
     }
+    
     .container {
         width: 95%;
     }
+
     .logo {
         font-size: 1.2rem;
     }
+
     .nav-links {
         flex-wrap: wrap;
         gap: 0.5rem 1rem;
     }
+
     .nav-links a {
         padding: 5px;
     }
+
     .hero-content h1 {
         font-size: 1.6rem;
     }
+
     .typing-cursor {
         height: 1.6rem;
     }
+
     section {
         padding: 40px 0;
     }
+
     section h2 {
         font-size: 1.6rem;
     }
+
     .projetos-grid{
         gap: 20px;
     }
 
     .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* estava 150px */
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
     }
  
     .certificado-card {
         width: 280px;
     }
+
     .contato-link {
         width: 100%;
         justify-content: center;
         padding: 12px 20px;
         font-size: 0.8rem;
     }
+
     #accessibility-panel {
         width: calc(100% - 40px);
         bottom: 90px;
         right: 20px;
         left: 20px;
     }
+
     #back-to-top, #accessibility-button {
         width: 50px;
         height: 50px;
