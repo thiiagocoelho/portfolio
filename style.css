@@ -685,7 +685,11 @@ html.intense {
     body {
         line-height: 1.5;
     }
-    
+
+    #hero {
+        background-repeat: no-repeat;
+    }
+
     .container {
         width: 95%;
     }
