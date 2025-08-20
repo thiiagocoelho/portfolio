@@ -613,11 +613,7 @@ html.faded {
 }
 
 html.intense {
-    --background-color: #000000;
-    --primary-color: #002838;
-    --secondary-color: #ff8500;
-    --font-color: #ffffff;
-    --glow-color: #ff8500;
+    filter: saturate(200%);
 }
 
 
