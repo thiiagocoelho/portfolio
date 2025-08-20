@@ -1,4 +1,4 @@
-export function initializeTypingEffect(elementId, text, speed = 150) {
+export function initializeTypingEffect(elementId, text, speed = 100) {
     const typingTextElement = document.getElementById(elementId);
     if (!typingTextElement) return;
 

@@ -32,10 +32,16 @@ export const meusProjetos = [
     },
     {
         id: 3,
-        titulo: "Projeto 3",
-        descricao: "",
-        tecnologias: [],
+        titulo: "Gerador de senhas",
+        descricao: "Tela de um gerador de senhas aleatórias, onde o usuário pode escolher o tamanho da senha e se deseja incluir letras maiúsculas, minúsculas, números e símbolos. Desenvolvido como um projeto de estudo para praticar HTML, CSS e JavaScript.",
+        tecnologias: [
+            { nome: 'HTML5', icone: 'fab fa-html5' },
+            { nome: 'CSS3', icone: 'fab fa-css3-alt' },
+            { nome: 'JavaScript', icone: 'fab fa-js-square' },
+        ],
         linkOnline: "#",
-        imagensGaleria: []
+        imagensGaleria: [
+            "../paginaProjetos/imgProjetos/gerador-senha.png",
+        ]
     }
 ];

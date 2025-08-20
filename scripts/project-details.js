@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.descricao-projeto p').textContent = projeto.descricao;
         document.querySelector('.btn-projeto').href = projeto.linkOnline;
 
-        // Preenche a lista de tecnologias
         const techList = document.querySelector('.tech-list');
         techList.innerHTML = '';
         projeto.tecnologias.forEach(tech => {
@@ -25,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
             techList.appendChild(li);
         });
 
-        // Inicializa a galeria
         initializeGallery(projeto);
         
         // Configura o botão de fechar do modal
