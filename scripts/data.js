@@ -39,7 +39,7 @@ export const meusProjetos = [
             { nome: 'CSS3', icone: 'fab fa-css3-alt' },
             { nome: 'JavaScript', icone: 'fab fa-js-square' },
         ],
-        linkOnline: "#",
+        linkOnline: "https://gerador-de-senha-beige-nine.vercel.app/",
         imagensGaleria: [
             "../paginaProjetos/imgProjetos/gerador-senha.png",
         ]
